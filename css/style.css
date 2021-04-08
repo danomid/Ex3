@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header, nav , footer {
+    width: 100%;
+}
+
+
+/* Layout 1 */
+
+#wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    height: 192px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    background: url("../images/logo.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    align-self: center;
+}
+
+#nav1 {
+    height: 62px;
+    background-color: orangered;
+    position:relative;
+}
+
+#nav1 a:hover{
+    color: green;
+}
+
+#nav1  ul{
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    align-self: center;
+    line-height: 40px;
+    margin: 0 auto;
+    position: absolute;
+    left: 200px;
+}
+
+
+#nav1 li {
+    margin-top: 11px;
+    width: 233px;
+    height: 40px;
+    list-style-type: none;
+
+}
+
+* a {
+    text-decoration: none;
+    color: white;
+}
+
+#Lay1{
+    background-color: royalblue;
+}
+
+#main1{
+    height: 696px ;
+    width: 756px ;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#aside1 {
+    height: 696px ;
+    width: 244px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#aside1 > section {
+    height: 60px ;
+    width: 148px;
+    background-color: red;
+    position: absolute;
+    right: 15px;
+    top: 200px;
+}                   
+
+#footer1 {
+    height: 50px;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+}
+
+.ShapesL    {
+    margin-top: 24px;
+    display: flex;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.ShapesL > section {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.ShapesR   {
+    position: absolute;
+    display: flex;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    bottom: 24px ;
+    right: 24px ;
+}
+
+.ShapesR > section {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+
+
+
+/* Layout 2 */
+
+.Wraper1{
+    margin: 0 auto;
+    width: 854px;
+    height: 783px ;
+}
+
+.Full{
+    height: 783px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
+.part{
+    display: flex;
+    justify-content: center;
+}
+
+#nav2 {
+    background-color: black;
+    width: 146px;
+    height: 783px ;
+    float: left;
+    position: relative;
+}
+
+#nav2 > ul {
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column ; 
+    position: relative;
+} 
+
+#nav2 ul li {
+    width: 146px;
+    height: 58px;
+    text-align: start;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav2 span {
+    position:absolute;
+    top: 21px;
+    left: 15px;
+}
+
+#Lay2{
+    background-color: lime;
+}
+
+
+#nav2 a:hover{
+    color: yellow;
+}
+
+#aside2{
+    display: flex;
+    background-color: green;
+    width: 257px;
+    height: 783px ;
+    position: relative;
+}
+
+.ShapesB > section {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.ShapesB   {
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    bottom: 12px ;
+    right: 11px ;
+}
+
+#main2{
+    background-color: lightgreen;
+    height: 783px;
+    width: 597px;
+    position: relative;
+    float: right;
+    display: flex;
+}
+
+
+
+.ShapesM {
+    width: 556px;
+    height: 642px;
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    position: absolute;
+    left: 22px;
+    top: 22px;
+}
+
+.ShapesM > section {
+    background-color: white;
+    width: 270px;
+}
+
+#B1{
+    height: 324px;
+}
+
+#B2{
+    height: 254px;
+}
+
+#B3{
+    height: 412px;
+    margin-top: 24px;
+}
+
+#B4{
+    height: 364px;
+    margin-top: -44px;
+}
+
+.Clear {
+    clear: both;
+}
+
+#footer2{
+    height: 50px;
+    position: fixed;
+    background-color: grey  ;
+    bottom: 0px;
+}
