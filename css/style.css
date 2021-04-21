@@ -290,3 +290,94 @@ header{
     background-color: grey  ;
     bottom: 0px;
 }
+
+
+/* Layout 3 */
+
+#nav3 {
+    background-color: black;
+    height: 62px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav3 ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+} 
+
+#nav3 ul li {
+    height: 62px;
+    width: 233px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav3 ul li a {
+    margin-top: 23px;
+}
+
+#Lay3 {
+    background-color: royalblue;
+}
+
+#wrapper3 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#All {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#main3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.Star {
+    top: 1px;
+    right: 1px;
+    position:absolute;
+}
+
+#footer3 {
+    height: 50px;
+    background-color: gray;
+}
+
+@media  (max-width: 800px){
+
+    header{
+        width: 666px;
+        background-color:  gray;
+        margin: 0 auto;
+    }
+    #nav3{
+        width: 666px;
+        background-color:  black;;
+    }
+    #footer3{
+       width: 666px;
+       margin: 0 auto;
+    }
+    
+    #wrapper{
+        width: 666px;
+        margin: 0 auto;
+    }
+    #main3{
+        width: 666px;
+        margin: 0 auto;
+    }
+
+    #logo{
+        background: url("../images/logo.png");
+        background-repeat: no-repeat;
+        align-self: center; 
+        margin: 0 auto;
+    }
+}
